@@ -1,0 +1,38 @@
+.main > img{
+    margin-left: 10%;
+    padding: 10px;
+}
+.gray {
+    filter: grayscale(100%);
+}
+.main{
+    width: min-content;
+    float: left;
+}
+
+.big-img{
+    position: fixed;
+    top: 30%;
+    left: 40%;
+    padding: 10px;
+    transform: translate(-50%,-50%) scale(0);
+}
+.big-img > figure{
+    background-color: gray;
+    width: fit-content;
+    padding: 10px;
+    margin-top: 100px;
+}
+
+.big-img > img{
+    width: 100px;
+    height: 100px;
+}
+#figCap{
+    color: white;
+    text-align: center;
+}
+
+.img-show{
+    transform: translate(-50%,-50%) scale(1);
+}

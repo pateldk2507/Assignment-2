@@ -1,0 +1,72 @@
+.reg{
+    width: 300px;
+    margin: auto;
+    background-color: rgb(204, 202, 202);
+    border-radius: 20px;
+    padding: 25px;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.error-msg{
+    width: 300px;
+    margin: auto;
+    background-color: rgb(204, 202, 202);
+    border-radius: 20px;
+    padding: 25px;
+    margin-top: 25px;
+}
+body{
+    background-color: black;
+}
+
+.heading{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+i{
+    background-color: coral;
+    color: white;
+    padding: 10px;
+    border-top-left-radius: 10px ;
+    border-bottom-left-radius: 10px;
+}
+
+.name{
+    padding: 10px;
+}
+.email{
+    padding: 10px;
+}
+
+div > input{
+    padding: 10px;
+    margin-left: -6px;
+    margin-top: 4px;
+    padding-bottom: 8px;
+}
+
+.btnReg{
+    background-color: rgb(64, 152, 187);
+    width: max-content;
+    padding: 7px;
+    font-weight: bold;
+    border: 0.5px solid;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.btnReg > i{
+    background-color: transparent;
+}
+
+#reg{
+    background-color: transparent;
+    color: white;
+    
+}

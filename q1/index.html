@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-2 Question-1</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    
+    
+</head>
+<body>
+    
+<div class="reg">
+    <div class="heading">
+        <h2>Registration</h2>
+    </div>
+
+    <hr>
+
+    <div class="name">
+        <i class="fas fa-user"></i>
+        <input type="text" name="user-name" id="user-name" placeholder="Name" >
+    </div>
+
+    <div class="mobile">
+        <i class="fas fa-phone-alt"></i>
+        <input type="tel" name="user-mobile" id="user-mobile" placeholder="Mobile">
+    </div>
+
+    <div class="email">
+        <i class="fas fa-envelope"></i>
+        <input type="email" name="user-email" id="user-email" placeholder="Email">
+
+    </div>
+
+    <div class="password">
+        <i class="fas fa-key"></i>
+        <input type="password" name="user-password" id="user-password" placeholder="Password">
+    </div>
+
+    <div class="btnReg" onclick="ckeckForEmptyFields();">
+        <i class="fas fa-reply"></i>
+        <span id="reg">Register</span>
+    </div>
+</div>
+
+
+<div class="error-msg">
+    <p id="msg">Please fill required fields!</p>
+</div>
+
+
+<script src="main.js"></script>
+
+</body>
+</html>
