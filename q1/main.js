@@ -11,6 +11,4 @@ function ckeckForEmptyFields(){
     }else{
         $('#msg').html('All good your registration is in process....');
     }
-        
-    
 }
